@@ -312,7 +312,7 @@ var settings = {
 //Donation
 
 let title = "Monthly Goal";
-let currentDonations = 85;
+let currentDonations = 105;
 let currentGoal = 200;
 let percentageAchieved = (currentDonations / currentGoal) * 100;
 
