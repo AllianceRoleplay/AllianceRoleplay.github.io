@@ -1,0 +1,159 @@
+TEAM_EVENTS = DarkRP.createJob("Maul", {
+    color = Color(255 , 255 , 255 , 255),
+    model = {"models/player/darth/maul.mdl"},
+    description = [[ KENOBIIIIIIIIIIIIIII ]],
+    weapons = {"weapon_lightsaber_personal", "none"},
+    command = "maul",
+    max = 1,
+    salary = 0,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Event Jobs",
+    PlayerLoadout = function(ply)
+        ply:SetHealth(650)
+        ply:SetArmor(250)
+        ply:SetMaxHealth(300)
+    end,
+    sortOrder = 1,
+})
+
+TEAM_EVENTS = DarkRP.createJob("Grevious", {
+    color = Color(255 , 255 , 255 , 255),
+    model = {"models/sengels/grievous/general_grievous.mdl"},
+    description = [[ General Kenobi ]],
+    weapons = {"weapon_lightsaber_personal", "none"},
+    command = "grevious",
+    max = 1,
+    salary = 0,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Event Jobs",
+    PlayerLoadout = function(ply)
+        ply:SetHealth(650)
+        ply:SetArmor(250)
+        ply:SetMaxHealth(300)
+    end,
+    sortOrder = 1,
+})
+
+TEAM_EVENTS = DarkRP.createJob("Trandoshan Leader", {
+    color = Color(255 , 255 , 255 , 255),
+    model = {"models/vuthakral/starwars/trandoshan/player_trando.mdl"},
+    description = [[ Let the hunt begin ]],
+    weapons = {"rw_sw_scattershotgun","rw_sw_k16","rw_sw_nade_thermal", "none"},
+    command = "trandolead",
+    max = 1,
+    salary = 0,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Event Jobs",
+    PlayerLoadout = function(ply)
+        ply:SetHealth(400)
+        ply:SetArmor(150)
+        ply:SetMaxHealth(300)
+    end,
+    sortOrder = 1,
+})
+
+TEAM_EVENTS = DarkRP.createJob("Citizen", {
+    color = Color(255 , 255 , 255 , 255),
+    model = {"models/qyan7259m/geequay_player/geequay_regular_player.mdl"},
+    description = [[ Roleplay as a bot ]],
+    weapons = {"rw_sw_ib94","rw_sw_cj9", "none"},
+    command = "civ",
+    max = 0,
+    salary = 0,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Event Jobs",
+    PlayerLoadout = function(ply)
+        ply:SetHealth(100)
+        ply:SetArmor(50)
+        ply:SetMaxHealth(300)
+    end,
+    sortOrder = 1,
+})
+
+TEAM_EVENTS = DarkRP.createJob("B1 Battle Droid", {
+    color = Color(255 , 255 , 255 , 255),
+    model = {"models/player/hydro/b1_battledroids/assault/b1_battledroid_assault.mdl"},
+    description = [[ Roger Roger ]],
+    weapons = {"rw_sw_e5","rw_sw_sg6","rw_sw_se14", "none"},
+    command = "b1",
+    max = 0,
+    salary = 0,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Event Jobs",
+    PlayerLoadout = function(ply)
+        ply:SetHealth(150)
+        ply:SetArmor(100)
+        ply:SetMaxHealth(300)
+    end,
+    sortOrder = 1,
+})
+
+TEAM_EVENTS = DarkRP.createJob("B2 Battle Droid", {
+    color = Color(255 , 255 , 255 , 255),
+    model = {"models/player/hydro/b2_battledroid/b2_battledroid.mdl"},
+    description = [[ Roger Roger ]],
+    weapons = {"rw_sw_b2rp_blaster", "none"},
+    command = "b2",
+    max = 0,
+    salary = 0,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Event Jobs",
+    PlayerLoadout = function(ply)
+        ply:SetHealth(450)
+        ply:SetArmor(250)
+        ply:SetMaxHealth(300)
+    end,
+    sortOrder = 1,
+})
+
+TEAM_EVENTS = DarkRP.createJob("Sith", {
+    color = Color(255 , 255 , 255 , 255),
+    model = {"models/syntheticgaming/characters/sithassassin/sithassassin.mdl"},
+    description = [[ Roger Roger ]],
+    weapons = {"weapon_lightsaber_personal", "none"},
+    command = "sith",
+    max = 0,
+    salary = 0,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Event Jobs",
+    PlayerLoadout = function(ply)
+        ply:SetHealth(550)
+        ply:SetArmor(250)
+        ply:SetMaxHealth(300)
+    end,
+    sortOrder = 1,
+})
+
+TEAM_EVENTS = DarkRP.createJob("Mandalorian", {
+    color = Color(255 , 255 , 255 , 255),
+    model = {"models/grealms/characters/deathwatch/deathwatch_infantry.mdl"},
+    description = [[ Roger Roger ]],
+    weapons = {"rw_sw_dual_westar35","rw_sw_iqa11c","rw_sw_westar11", "none"},
+    command = "mando",
+    max = 0,
+    salary = 0,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Event Jobs",
+    PlayerLoadout = function(ply)
+        ply:SetHealth(400)
+        ply:SetArmor(250)
+        ply:SetMaxHealth(300)
+    end,
+    sortOrder = 1,
+})
